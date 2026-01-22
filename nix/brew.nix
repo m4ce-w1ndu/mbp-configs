@@ -7,7 +7,7 @@
     onActivation = {
       autoUpdate = true;
       upgrade = true;
-      cleanup = "zap"; 
+      cleanup = "zap";
     };
 
     taps = [
@@ -16,11 +16,12 @@
 
     # Casks (GUI Applications)
     casks = [
+      "zed"
+      "wezterm"
+      "pearcleaner"
       "google-chrome"
       "proton-mail"
       "podman-desktop"
-      "zed" 
-      "wezterm"
       "antigravity"
     ];
 
