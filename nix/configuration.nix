@@ -18,7 +18,7 @@
   nixpkgs.config.allowUnfree = true;
 
   # List packages installed in system profile.
-  environment.systemPackages = [ 
+  environment.systemPackages = [
     # --- CLI Tools ---
     pkgs.wget
     pkgs.yt-dlp
@@ -38,7 +38,7 @@
     pkgs.cmake
     pkgs.cmake-language-server
     pkgs.javaPackages.compiler.openjdk25
-    
+
     # --- Heavy Lifting ---
     pkgs.texliveFull  # Nix is excellent for managing TeX without clutter
 
@@ -51,7 +51,7 @@
     pkgs.ollama
 
     # --- Custom Scripts ---
-    (pkgs.writeShellScriptBin "ollama-manager" (builtins.readFile ./scripts/ollama-manager.sh))
+    (pkgs.writeShellScriptBin "ollama-manager" (builtins.readFile ../scripts/nix-ollama-manager.sh))
   ];
 
   # Fonts
