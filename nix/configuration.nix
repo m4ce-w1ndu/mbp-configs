@@ -21,6 +21,7 @@
   environment.systemPackages = [
     # --- CLI Tools ---
     pkgs.wget
+    pkgs.tree
     pkgs.yt-dlp
     pkgs.fastfetch
     pkgs.nix-search-cli
