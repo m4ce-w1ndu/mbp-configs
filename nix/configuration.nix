@@ -30,6 +30,7 @@
 
     # --- Dev Tools & Languages ---
     pkgs.php
+    pkgs.nil
     pkgs.gcc15
     pkgs.rustup
     pkgs.sqlite
