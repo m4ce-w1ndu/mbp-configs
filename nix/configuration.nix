@@ -14,7 +14,7 @@
     ./brew.nix
   ];
 
-  # Allow unfree packages (Chrome, etc. require this, even if moved to Brew, keep it true for safe measure)
+  # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
   # List packages installed in system profile.
@@ -41,7 +41,7 @@
     pkgs.javaPackages.compiler.openjdk25
 
     # --- Heavy Lifting ---
-    pkgs.texliveFull  # Nix is excellent for managing TeX without clutter
+    pkgs.texliveFull
 
     # --- Containers (CLI only) ---
     pkgs.kubectl
