@@ -17,6 +17,7 @@
     # Casks (GUI Applications)
     casks = [
       "zed"
+      "signal"
       "wezterm"
       "pearcleaner"
       "google-chrome"
