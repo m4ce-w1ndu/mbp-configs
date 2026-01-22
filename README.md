@@ -14,16 +14,11 @@ This repository implements a **Hybrid Configuration Strategy**:
 ## 📂 Repository Structure
 
 ```plaintext
-~/dotfiles
+~/mbp-configs
 ├── nix/
 │   ├── configuration.nix   # Main system configuration (symlinked to /etc/nix-darwin/)
 │   └── brew.nix            # Homebrew Casks & Mac App Store definitions
-├── core/                   # Base dotfiles (shell, git, tmux)
-│   ├── zsh/
-│   ├── git/
-│   └── tmux/
 ├── apps/                   # Application specific configs
-│   ├── nvim/
-│   └── alacritty/
-├── scripts/                # Bootstrapping and maintenance scripts
+│   └── wezterm/
+├── scripts/                # Bootstrapping, maintenance and custom scripts
 └── README.md
