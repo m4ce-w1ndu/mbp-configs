@@ -34,7 +34,7 @@
     pkgs.php
     pkgs.nil
     pkgs.nixd
-    pkgs.gcc15
+    pkgs.nodenv
     pkgs.rustup
     pkgs.sqlite
     pkgs.mariadb
