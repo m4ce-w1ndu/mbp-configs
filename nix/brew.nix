@@ -22,6 +22,7 @@
     # Casks (GUI Applications)
     casks = [
       "zed"
+      "orion"
       "signal"
       "wezterm"
       "pearcleaner"
@@ -35,6 +36,7 @@
     masApps = {
       "Bitwarden" = 1352778147;
       "Wireguard" = 1451685025;
+      "UTM" = 1538878817; # Paid app, you need to buy it first
     };
 
     # If you want fonts via Brew (optional, since you have them in Nix config too)
