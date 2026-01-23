@@ -4,18 +4,18 @@
     "type": "file",
     "source": "macos",
     "padding": {
-      "top": 0, // FIXED: Removes the huge gap above the apple
+      "top": 0,
       "left": 2,
       "right": 4
     }
   },
   "display": {
-    "separator": "  ",
+    "separator": ": ",
     "color": {
       "separator": "white"
     },
     "key": {
-      "width": 16
+      "width": 18
     }
   },
   "modules": [
@@ -87,6 +87,11 @@
       "type": "terminal",
       "key": "   Terminal",
       "keyColor": "magenta"
+    },
+    {
+      "type": "packages",
+      "key": "   Packages",
+      "keyColor": "blue"
     },
     {
       "type": "uptime",
