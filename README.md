@@ -16,10 +16,12 @@ This repository implements a **Hybrid Configuration Strategy**:
 ~/Projects/mbp-configs
 ├── install.sh              # Master bootstrap script
 ├── apps/                   # User-space configuration files
+│   ├── fastfetch/
+│   │   └── config.jsonc
 │   └── wezterm/
 │       └── wezterm.lua
 ├── nix/                    # System-space configuration files
-│   ├── configuration.nix   # Main system configuration (symlinked to /etc/nix-darwin/)
-│   └── brew.nix            # Homebrew Casks & Mac App Store definitions
-└── scripts/                # Helper scripts
+│   ├── configuration.nix
+│   └── brew.nix
+└── scripts/
     └── nix-ollama-manager.sh
