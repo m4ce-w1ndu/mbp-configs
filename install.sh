@@ -61,6 +61,10 @@ echo "--- 🛠️  Setting up User Configurations ---"
 # Mapping: repo/apps/wezterm/wezterm.lua -> ~/.config/wezterm/wezterm.lua
 backup_and_link "$REPO_DIR/apps/wezterm/wezterm.lua" "$HOME/.config/wezterm/wezterm.lua" "false"
 
+# Fastfetch
+# Mapping: repo/apps/fastfetch/config.jsonc -> ~/.config/fastfetch/config.jsonc
+backup_and_link "$REPO_DIR/apps/fastfetch/config.jsonc" "$HOME/.config/fastfetch/config.jsonc" "false"
+
 # Add other apps here as you grow (e.g., nvim, alacritty)
 # backup_and_link "$REPO_DIR/apps/nvim" "$HOME/.config/nvim" "false"
 
