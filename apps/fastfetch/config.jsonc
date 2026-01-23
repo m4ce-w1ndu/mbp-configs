@@ -1,0 +1,106 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "macos",
+    "padding": {
+      "top": 0, // FIXED: Removes the huge gap above the apple
+      "left": 2,
+      "right": 4,
+    },
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "separator": "white",
+    },
+    "key": {
+      "width": 16,
+    },
+  },
+  "modules": [
+    // --- Spacer to align text with the logo ---
+    "break", // Added this to push text down slightly to match the logo's visual center
+
+    // --- Header ---
+    {
+      "type": "title",
+      "format": "{user-name-colored}   {host-name-colored}",
+      "keyWidth": 10,
+    },
+
+    // --- Hardware Section ---
+    {
+      "type": "custom",
+      "format": "────────── Hardware ──────────",
+      "outputColor": "red",
+    },
+    {
+      "type": "host",
+      "key": "   Model",
+      "keyColor": "red",
+    },
+    {
+      "type": "cpu",
+      "key": "   CPU",
+      "keyColor": "yellow",
+    },
+    {
+      "type": "gpu",
+      "key": "   GPU",
+      "keyColor": "yellow",
+    },
+    {
+      "type": "memory",
+      "key": "   Memory",
+      "keyColor": "green",
+    },
+    {
+      "type": "disk",
+      "key": "   Disk",
+      "keyColor": "green",
+    },
+
+    // --- Software Section ---
+    {
+      "type": "custom",
+      "format": "────────── Software ──────────",
+      "outputColor": "blue",
+    },
+    {
+      "type": "os",
+      "key": "   OS",
+      "keyColor": "blue",
+      "format": "{2} {8}",
+    },
+    {
+      "type": "shell",
+      "key": "   Shell",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "terminal",
+      "key": "   Terminal",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "uptime",
+      "key": "   Uptime",
+      "keyColor": "cyan",
+    },
+
+    // --- Bottom Padding & Colors ---
+    {
+      "type": "custom",
+      "format": "──────────────────────────────",
+      "outputColor": "black",
+    },
+    {
+      "type": "colors",
+      "padding": {
+        "left": 16,
+      },
+      "symbol": "circle",
+    },
+  ],
+}
