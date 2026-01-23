@@ -34,13 +34,14 @@
     pkgs.php
     pkgs.nil
     pkgs.nixd
-    pkgs.nodenv
+
     pkgs.rustup
     pkgs.sqlite
     pkgs.mariadb
     pkgs.ninja
     pkgs.cmake
     pkgs.cmake-language-server
+    pkgs.nodejs_latest
     pkgs.javaPackages.compiler.openjdk25
 
     # --- Heavy Lifting ---
