@@ -30,7 +30,6 @@
       "antigravity"
       "google-chrome"
       "podman-desktop"
-      "orangedrangon-android-messages"
     ];
 
     # Mac App Store apps
