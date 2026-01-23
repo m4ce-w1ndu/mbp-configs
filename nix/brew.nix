@@ -24,6 +24,7 @@
       "zed"
       "orion"
       "signal"
+      "openmtp"
       "wezterm"
       "pearcleaner"
       "proton-mail"
