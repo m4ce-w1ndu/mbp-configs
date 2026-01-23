@@ -6,17 +6,17 @@
     "padding": {
       "top": 0, // FIXED: Removes the huge gap above the apple
       "left": 2,
-      "right": 4,
-    },
+      "right": 4
+    }
   },
   "display": {
     "separator": "  ",
     "color": {
-      "separator": "white",
+      "separator": "white"
     },
     "key": {
-      "width": 16,
-    },
+      "width": 16
+    }
   },
   "modules": [
     // --- Spacer to align text with the logo ---
@@ -26,81 +26,83 @@
     {
       "type": "title",
       "format": "{user-name-colored}   {host-name-colored}",
-      "keyWidth": 10,
+      "keyWidth": 10
     },
 
     // --- Hardware Section ---
     {
       "type": "custom",
       "format": "────────── Hardware ──────────",
-      "outputColor": "red",
+      "outputColor": "red"
     },
     {
       "type": "host",
       "key": "   Model",
-      "keyColor": "red",
+      "keyColor": "red"
     },
     {
       "type": "cpu",
       "key": "   CPU",
-      "keyColor": "yellow",
+      "keyColor": "yellow"
     },
     {
       "type": "gpu",
       "key": "   GPU",
-      "keyColor": "yellow",
+      "keyColor": "yellow"
     },
     {
       "type": "memory",
       "key": "   Memory",
-      "keyColor": "green",
+      "keyColor": "green"
     },
     {
       "type": "disk",
       "key": "   Disk",
-      "keyColor": "green",
+      "keyColor": "green"
+    },
+    {
+      "type": "display",
+      "key": "   Display",
+      "keyColor": "yellow"
     },
 
     // --- Software Section ---
     {
       "type": "custom",
       "format": "────────── Software ──────────",
-      "outputColor": "blue",
+      "outputColor": "blue"
     },
     {
       "type": "os",
       "key": "   OS",
       "keyColor": "blue",
-      "format": "{2} {8}",
+      "format": "{2} {8}"
     },
     {
       "type": "shell",
       "key": "   Shell",
-      "keyColor": "magenta",
+      "keyColor": "magenta"
     },
     {
       "type": "terminal",
       "key": "   Terminal",
-      "keyColor": "magenta",
+      "keyColor": "magenta"
     },
     {
       "type": "uptime",
       "key": "   Uptime",
-      "keyColor": "cyan",
+      "keyColor": "cyan"
     },
 
     // --- Bottom Padding & Colors ---
     {
       "type": "custom",
       "format": "──────────────────────────────",
-      "outputColor": "black",
+      "outputColor": "black"
     },
     {
       "type": "colors",
-      "padding": {
-        "left": 16,
-      },
-      "symbol": "circle",
-    },
-  ],
+      "symbol": "circle"
+    }
+  ]
 }
