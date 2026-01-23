@@ -26,17 +26,18 @@
       "signal"
       "wezterm"
       "pearcleaner"
-      "google-chrome"
       "proton-mail"
-      "podman-desktop"
       "antigravity"
+      "google-chrome"
+      "podman-desktop"
+      "orangedrangon-android-messages"
     ];
 
     # Mac App Store apps
     masApps = {
+      "UTM" = 1538878817; # Paid app, you need to buy it first
       "Bitwarden" = 1352778147;
       "Wireguard" = 1451685025;
-      "UTM" = 1538878817; # Paid app, you need to buy it first
     };
 
     # If you want fonts via Brew (optional, since you have them in Nix config too)
