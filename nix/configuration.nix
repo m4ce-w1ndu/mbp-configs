@@ -35,6 +35,7 @@
     pkgs.nil
     pkgs.nixd
     pkgs.nodejs_latest
+    pkgs.android-tools
     pkgs.rustup
     pkgs.sqlite
     pkgs.mariadb
