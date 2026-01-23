@@ -1,0 +1,61 @@
+" --- PLUGINS ---
+call plug#begin('~/.vim/plugged')
+
+" The heavy lifter: IntelliSense engine for Vim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" A nice file explorer (optional, like VS Code sidebar)
+Plug 'preservim/nerdtree'
+
+" Status bar for a modern look
+Plug 'vim-airline/vim-airline'
+
+" Fuzzy finder (ctrl+p functionality)
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+call plug#end()
+
+
+" --- BASIC SETTINGS ---
+set number              " Show line numbers
+set relativenumber      " Show relative line numbers (great for navigation)
+set expandtab           " Use spaces instead of tabs
+set shiftwidth=4        " Indent by 4 spaces
+set tabstop=4
+set smartindent         " Auto-indent new lines
+set mouse=a             " Enable mouse support
+
+" --- COC CONFIGURATION (The Important Part) ---
+" Use <Tab> for trigger completion and navigate next
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+" Use <Enter> to confirm completion
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+
+" GoTo code navigation (gd = go to definition)
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+" Show documentation in popup window with K
+nnoremap <silent> K :call ShowDocumentation()<CR>
+
+function! ShowDocumentation()
+  if CocAction('hasProvider', 'hover')
+    call CocActionAsync('doHover')
+  else
+    call feedkeys('K', 'in')
+  endif
+endfunction
+
+" Helper function for the Tab mapping
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction

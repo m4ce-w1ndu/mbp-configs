@@ -65,8 +65,28 @@ backup_and_link "$REPO_DIR/apps/wezterm/wezterm.lua" "$HOME/.config/wezterm/wezt
 # Mapping: repo/apps/fastfetch/config.jsonc -> ~/.config/fastfetch/config.jsonc
 backup_and_link "$REPO_DIR/apps/fastfetch/config.jsonc" "$HOME/.config/fastfetch/config.jsonc" "false"
 
-# Add other apps here as you grow (e.g., nvim, alacritty)
-# backup_and_link "$REPO_DIR/apps/nvim" "$HOME/.config/nvim" "false"
+# --- VIM CONFIGURATION ---
+echo ""
+echo "--- 📝 Setting up Vim ---"
+
+# 1. Install vim-plug (Plugin Manager) automatically if missing
+if [ ! -f "$HOME/.vim/autoload/plug.vim" ]; then
+    echo "   Installing vim-plug..."
+    curl -fLo "$HOME/.vim/autoload/plug.vim" --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+else
+    echo "✅ vim-plug already installed."
+fi
+
+# 2. Symlink .vimrc
+# Mapping: repo/apps/vim/.vimrc -> ~/.vimrc
+backup_and_link "$REPO_DIR/apps/vim/vimrc" "$HOME/.vimrc" "false"
+
+# 3. Auto-install Plugins
+# This runs vim non-interactively to install missing plugins defined in .vimrc
+echo "   Running :PlugInstall..."
+vim -es -u "$HOME/.vimrc" -i NONE -c "PlugInstall" -c "qa"
+echo "✅ Vim plugins installed."
 
 
 # -----------------------------------------------------------------------------
