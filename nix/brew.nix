@@ -11,7 +11,6 @@
     };
 
     taps = [
-      # "koekeishiya/formulae" # Uncomment if you use yabai/skhd later
     ];
 
     # Brews (CLI apps)
