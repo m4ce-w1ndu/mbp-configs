@@ -37,6 +37,7 @@
       "UTM" = 1538878817; # Paid app, you need to buy it first
       "Bitwarden" = 1352778147;
       "Wireguard" = 1451685025;
+      "Blackmagic Disk Test" = 425264550;
     };
 
     # If you want fonts via Brew (optional, since you have them in Nix config too)
