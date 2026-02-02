@@ -21,13 +21,13 @@
     # Casks (GUI Applications)
     casks = [
       "zed"
-      "orion"
       "signal"
       "openmtp"
       "wezterm"
       "pearcleaner"
       "proton-mail"
       "antigravity"
+      "wine-stable"
       "google-chrome"
       "podman-desktop"
     ];
