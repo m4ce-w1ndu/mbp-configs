@@ -24,6 +24,7 @@
       "signal"
       "openmtp"
       "wezterm"
+      "spotify"
       "pearcleaner"
       "proton-mail"
       "antigravity"
