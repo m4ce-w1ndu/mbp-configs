@@ -26,6 +26,7 @@
       "wezterm"
       "spotify"
       "discord"
+      "libreoffice"
       "pearcleaner"
       "proton-mail"
       "wine-stable"
