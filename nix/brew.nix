@@ -38,6 +38,7 @@
       "UTM" = 1538878817; # Paid app, you need to buy it first
       "Bitwarden" = 1352778147;
       "Wireguard" = 1451685025;
+      "WhatsApp Messenger" = 310633997;
       "Blackmagic Disk Test" = 425264550;
     };
 
