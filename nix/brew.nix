@@ -26,6 +26,7 @@
       "wezterm"
       "spotify"
       "discord"
+      "arduino-ide"
       "libreoffice"
       "pearcleaner"
       "proton-mail"

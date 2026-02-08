@@ -24,6 +24,7 @@
     pkgs.nmap
     pkgs.tree
     pkgs.yt-dlp
+    pkgs.usbutils
     pkgs.fastfetch
     pkgs.nix-search-cli
 
