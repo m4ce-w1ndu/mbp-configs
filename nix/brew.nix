@@ -42,6 +42,7 @@
       "Wireguard" = 1451685025;
       "WhatsApp Messenger" = 310633997;
       "Blackmagic Disk Test" = 425264550;
+      "Parallels Client" = 600925318;
     };
 
     # If you want fonts via Brew (optional, since you have them in Nix config too)
