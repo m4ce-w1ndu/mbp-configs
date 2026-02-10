@@ -42,6 +42,7 @@
     pkgs.mariadb
     pkgs.ninja
     pkgs.cmake
+    pkgs.google-cloud-sdk
     pkgs.cmake-language-server
     pkgs.javaPackages.compiler.openjdk25
 
