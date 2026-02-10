@@ -26,6 +26,7 @@
       "wezterm"
       "spotify"
       "discord"
+      "stremio"
       "arduino-ide"
       "libreoffice"
       "pearcleaner"
