@@ -32,7 +32,7 @@
       "pearcleaner"
       "proton-mail"
       "wine-stable"
-      "google-chrome"
+      "helium-browser"
       "podman-desktop"
     ];
 
