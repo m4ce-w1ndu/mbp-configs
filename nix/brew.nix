@@ -32,6 +32,7 @@
       "pearcleaner"
       "proton-mail"
       "wine-stable"
+      "wireshark-app"
       "helium-browser"
       "podman-desktop"
     ];
