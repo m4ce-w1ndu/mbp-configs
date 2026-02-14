@@ -32,6 +32,7 @@
     pkgs.vim
 
     # --- Dev Tools & Languages ---
+    pkgs.bun
     pkgs.php
     pkgs.nil
     pkgs.nixd

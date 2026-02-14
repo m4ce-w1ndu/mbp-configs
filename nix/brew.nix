@@ -35,6 +35,7 @@
       "wireshark-app"
       "helium-browser"
       "podman-desktop"
+      "navigraph-charts"
     ];
 
     # Mac App Store apps
