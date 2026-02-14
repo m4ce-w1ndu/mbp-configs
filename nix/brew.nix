@@ -34,7 +34,6 @@
       "wine-stable"
       "wireshark-app"
       "helium-browser"
-      "podman-desktop"
       "navigraph-charts"
     ];
 
