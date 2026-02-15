@@ -32,6 +32,7 @@
       "pearcleaner"
       "proton-mail"
       "wine-stable"
+      "transmission"
       "wireshark-app"
       "helium-browser"
       "navigraph-charts"
