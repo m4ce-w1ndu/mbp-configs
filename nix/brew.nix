@@ -21,6 +21,7 @@
     # Casks (GUI Applications)
     casks = [
       "zed"
+      "steam"
       "signal"
       "openmtp"
       "wezterm"
