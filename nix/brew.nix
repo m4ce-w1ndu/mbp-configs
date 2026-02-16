@@ -34,8 +34,8 @@
       "wine-stable"
       "transmission"
       "wireshark-app"
-      "helium-browser"
       "navigraph-charts"
+      "ungoogled-chromium"
     ];
 
     # Mac App Store apps
