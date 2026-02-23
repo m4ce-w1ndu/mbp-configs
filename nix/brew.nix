@@ -20,6 +20,7 @@
 
     # Casks (GUI Applications)
     casks = [
+      "arc"
       "zed"
       "steam"
       "signal"
@@ -28,6 +29,7 @@
       "spotify"
       "discord"
       "stremio"
+      "affinity"
       "onlyoffice"
       "arduino-ide"
       "pearcleaner"
@@ -35,8 +37,8 @@
       "wine-stable"
       "transmission"
       "wireshark-app"
+      "google-chrome"
       "navigraph-charts"
-      "ungoogled-chromium"
     ];
 
     # Mac App Store apps
