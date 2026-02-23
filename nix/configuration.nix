@@ -17,6 +17,17 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Deno build fix
+  nixpkgs.overlays = [
+      (final: prev: {
+        deno = prev.deno.overrideAttrs (oldAttrs: {
+          # Fixes the naming mismatch: integration_tests -> integration_test
+          # We also skip the check phase to save 15+ minutes of build time
+          doCheck = false;
+        });
+      })
+    ];
+
   # List packages installed in system profile.
   environment.systemPackages = [
     # --- CLI Tools ---
