@@ -20,7 +20,6 @@
 
     # Casks (GUI Applications)
     casks = [
-      "arc"
       "zed"
       "steam"
       "signal"
@@ -29,6 +28,7 @@
       "spotify"
       "discord"
       "stremio"
+      "waterfox"
       "affinity"
       "onlyoffice"
       "arduino-ide"
