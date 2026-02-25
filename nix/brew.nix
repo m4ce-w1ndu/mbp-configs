@@ -44,6 +44,7 @@
     # Mac App Store apps
     masApps = {
       "UTM" = 1538878817; # Paid app, you need to buy it first
+      "LanScan" = 472226235;
       "Bitwarden" = 1352778147;
       "Wireguard" = 1451685025;
       "Parallels Client" = 600925318;
