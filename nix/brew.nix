@@ -23,7 +23,7 @@
       "zed"
       "steam"
       "signal"
-      "floorp"
+      "firefox"
       "openmtp"
       "wezterm"
       "spotify"

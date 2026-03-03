@@ -23,6 +23,7 @@
     pkgs.wget
     pkgs.nmap
     pkgs.tree
+    pkgs.ansible
     pkgs.usbutils
     pkgs.fastfetch
     pkgs.nix-search-cli
