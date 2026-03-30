@@ -35,6 +35,7 @@
     pkgs.bun
     pkgs.php
     pkgs.nil
+    pkgs.pnpm
     pkgs.nixd
     pkgs.nodejs_latest
     pkgs.android-tools
