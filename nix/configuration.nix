@@ -23,6 +23,7 @@
     pkgs.wget
     pkgs.nmap
     pkgs.tree
+    pkgs.scrcpy
     pkgs.ansible
     pkgs.usbutils
     pkgs.fastfetch
