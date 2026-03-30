@@ -37,6 +37,7 @@
       "transmission"
       "wireshark-app"
       "google-chrome"
+      "android-studio"
       "microsoft-edge"
       "navigraph-charts"
     ];
