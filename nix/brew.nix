@@ -23,7 +23,6 @@
       "zed"
       "steam"
       "signal"
-      "firefox"
       "openmtp"
       "wezterm"
       "spotify"
@@ -38,6 +37,7 @@
       "transmission"
       "wireshark-app"
       "google-chrome"
+      "microsoft-edge"
       "navigraph-charts"
     ];
 
