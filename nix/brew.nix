@@ -31,14 +31,14 @@
       "affinity"
       "onlyoffice"
       "arduino-ide"
+      "claude-code"
       "pearcleaner"
-      "proton-mail"
       "wine-stable"
       "transmission"
+      "brave-browser"
       "wireshark-app"
       "google-chrome"
       "android-studio"
-      "microsoft-edge"
       "navigraph-charts"
     ];
 
