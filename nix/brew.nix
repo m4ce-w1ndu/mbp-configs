@@ -16,6 +16,7 @@
     # Brews (CLI apps)
     brews = [
       "mas"
+      "xcodegen"
     ];
 
     # Casks (GUI Applications)
@@ -52,6 +53,7 @@
       "Parallels Client" = 600925318;
       "WhatsApp Messenger" = 310633997;
       "Blackmagic Disk Test" = 425264550;
+      "Xiaomi Interconnectivity" = 6673908449;
     };
 
     # If you want fonts via Brew (optional, since you have them in Nix config too)
