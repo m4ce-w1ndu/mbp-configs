@@ -30,6 +30,7 @@
       "discord"
       "stremio"
       "affinity"
+      "keyguard"
       "onlyoffice"
       "arduino-ide"
       "claude-code"
@@ -48,7 +49,6 @@
       "UTM" = 1538878817;
       "Xcode" = 497799835;
       "LanScan" = 472226235;
-      "Bitwarden" = 1352778147;
       "Wireguard" = 1451685025;
       "Parallels Client" = 600925318;
       "WhatsApp Messenger" = 310633997;
